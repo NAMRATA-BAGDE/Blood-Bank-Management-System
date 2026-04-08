@@ -1,41 +1,118 @@
-//A PHP-based Blood Bank Management System featuring Admin, Donor, and Patient modules to streamline blood donation requests and live inventory tracking.
+# 🩸 Blood Bank Management System
 
-web-based application designed to bridge the gap between blood donors and patients in need. It provides a centralized platform to manage blood donations, track live blood stocks, and process emergency blood requests efficiently.
+A full-stack web application designed to manage blood donation, requests, and administration efficiently. This system connects **donors**, **patients**, and **administrators** in one platform to streamline the blood donation process.
 
-🚀 Key Features
-The system is divided into three main modules:
+---
 
-Admin Dashboard:
+## 📌 Features
 
-Full control over the system.
+### 👨‍⚕️ Admin Panel
 
-Real-time tracking of all blood donation and request activities.
+* Manage donor and patient records
+* Approve / Reject blood requests
+* View all blood donation requests
+* Maintain system database
 
-Stock Management: Monitor available blood units by group (A+, B+, O-, etc.) and update inventory automatically.
+### 🧑‍🤝‍🧑 Donor Module
 
-Manage and verify Donor and Patient profiles.
+* Donor registration & login
+* Donate blood functionality
+* Send blood availability requests
+* Dashboard to track activity
 
-Donor Module:
+### 🏥 Patient Module
 
-Secure login/registration.
+* Patient registration & login
+* Request blood based on requirement
+* Track request history
+* Edit and manage profile
 
-Ability to submit a "Donate Blood" request.
+---
 
-View personal donation history and status of their contribution.
+## 🛠️ Tech Stack
 
-Patient Module:
+* **Frontend:** HTML, CSS, Bootstrap
+* **Backend:** PHP
+* **Database:** MySQL
+* **Server:** XAMPP / WAMP
 
-User-friendly dashboard to check blood availability.
+---
 
-Apply for blood requests in case of emergencies.
+## 📂 Project Structure
 
-Track the status of the request (Pending, Accepted, or Rejected) in real-time.
+```
+Blood-Bank-Management-System/
+│
+├── Admin/        # Admin functionalities
+├── Donor/        # Donor module
+├── Patient/      # Patient module
+├── images/       # UI images
+├── frontpage.php # Landing page
+└── README.md
+```
 
-🛠️ Tech Stack
-Frontend: HTML5, CSS3 (Custom styling with Flexbox/Grid).
+---
 
-Backend: PHP (Server-side logic and session management).
+## ⚙️ Installation & Setup
 
-Database: MySQL (Stored procedures and relational data management).
+Follow these steps to run the project locally:
 
-Tools: XAMPP, VS Code, Git/GitHub
+1. Clone the repository
+
+```
+git clone https://github.com/NAMRATA-BAGDE/Blood-Bank-Management-System.git
+```
+
+2. Move project to server directory
+
+* For XAMPP → `htdocs`
+* For WAMP → `www`
+
+3. Start Apache & MySQL
+
+4. Import Database
+
+* Open **phpMyAdmin**
+* Create a new database
+* Import the `.sql` file *(add if you have one)*
+
+5. Run the project
+
+```
+http://localhost/Blood-Bank-Management-System/
+```
+
+---
+
+
+## 🎯 Project Objective
+
+The goal of this project is to:
+
+* Reduce manual work in blood bank management
+* Provide quick access to blood availability
+* Digitize donor-patient coordination
+* Improve emergency response efficiency
+
+---
+
+## 🔮 Future Enhancements
+
+* Email/SMS notifications
+* Real-time blood availability tracking
+* Improved UI/UX (React upgrade possible)
+* API integration for hospitals
+
+---
+
+## 👩‍💻 Author
+
+**Namrata Bagde**
+
+* Final Year B.Tech CSE Student
+* Full Stack Developer
+
+👉 GitHub: [https://github.com/NAMRATA-BAGDE](https://github.com/NAMRATA-BAGDE)
+
+---
+
