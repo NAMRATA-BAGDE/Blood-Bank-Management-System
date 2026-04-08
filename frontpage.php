@@ -8,9 +8,9 @@
                 <div class="logo"><a href="#"><i class="fa-solid fa-hand-holding-droplet" style="font-size:25px;"></i> LIFE SAVER</a></div>
                 <ul>
                     <li><a href="frontpage.php">Home</a></li>
-                    <li><a href="adminlogin.php">Admin</a></li>
-                    <li><a href="Donarlogin.php">Donar</a></li>
-                    <li><a href="patientlog.php">Patient</a></li>
+                    <li><a href="Admin/adminlogin.php">Admin</a></li>
+                    <li><a href="Donor/Donarlogin.php">Donar</a></li>
+                    <li><a href="Patient/patientlog.php">Patient</a></li>
                 </ul>
             </div>
         </nav>
@@ -24,7 +24,7 @@
                 <button>Read More ...</button>
             </div>
             <div class="hero-image">
-            <img src="heroimage.jpg" alt="Blood Donation">
+            <img src="images/heroimage.jpg" alt="Blood Donation">
         </div>
 
     </div> 
@@ -45,7 +45,7 @@
             margin:0px;
             body {
     /* Image ka naam aur extension wahi rakhein jo folder mein hai */
-    background-image: url('bagimg.jpg');
+    background-image: url('images/bagimg.jpg');
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
