@@ -1,7 +1,7 @@
 <html>
     <body>
         <nav class="head">
-            <li class="li1">Blood Bank Management System</li>
+            <li class="li1">LIFE SAVER</li>
             <li class="li2"><span class="name">Name: </span>
                 <?php
                     $con = mysqli_connect("localhost","root","","bloodbank");
@@ -18,7 +18,7 @@
                 <a href="Apatientlist.php" class="a">Patient</a>
                 <a href="ADonREQ.php" class="a">Donation</a>
                 <a href="Apatientbloodreq.php" class="a">Requests</a>
-                <a href="frontpage.php" class="a">Logout</a>
+                <a href="../frontpage.php" class="a">Logout</a>
             </li>
         </nav>
         <div class="main">

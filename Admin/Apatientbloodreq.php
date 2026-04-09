@@ -184,7 +184,7 @@ $con = mysqli_connect("localhost","root","","bloodbank");
             <li><a href="Apatientlist.php">Patients</a></li>
             <li><a href="ADonREQ.php">Donations</a></li>
             <li><a href="Apatientbloodreq.php">Request</a></li>
-            <li><a href="frontpage.php">Logout</a></li>
+            <li><a href="../frontpage.php">Logout</a></li>
         </ul>
     </div>
 </nav>

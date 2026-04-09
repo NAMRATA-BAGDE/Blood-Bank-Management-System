@@ -21,7 +21,7 @@
                     <li><a href="DONdashboard.php">Dashboard</a></li>
                     <li><a href="#">Donate</a></li>
                     <li><a href="REQUEST.php">Request</a></li>
-                    <li><a href="frontpage.php">Logout</a></li>
+                    <li><a href="../frontpage.php">Logout</a></li>
                 </ul>
             </div>
         </nav>

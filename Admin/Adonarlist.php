@@ -21,7 +21,7 @@
             <li><a href="Apatientlist.php">patients</a></li>
             <li><a href="ADonREQ.php">Donations</a></li>
             <li><a href="Apatientbloodreq.php">Request</a></li>
-            <li><a href="frontpage.php">Logout</a></li>
+            <li><a href="../frontpage.php">Logout</a></li>
         </ul>
     </div>
 </nav>

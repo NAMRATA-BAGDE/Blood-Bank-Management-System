@@ -20,7 +20,7 @@
                     <li><a href="Apatientlist.php">patients</a></li>
                     <li><a href="ADonREQ.php">Donations</a></li>
                     <li><a href="Apatientbloodreq.php">Request</a></li>
-                    <li><a href="frontpage.php">Logout</a></li>
+                    <li><a href="../frontpage.php">Logout</a></li>
                 </ul>
             </div>
         </nav>
@@ -53,8 +53,8 @@
                                 <td><span class='txt3'>$row[patient_name]</span></td>
                                 <td><span class='txt4'>$row[patient_email]</span></td>
                                 <td><span class='txt5'>$row[patient_mobile]</span></td>
-                                <td><a href='P-edit.php?id=$row[id]'><input type='button' value='Edit' class='btt1'></a></td>
-                                <td><a href='P-delete.php?id=$row[id]'><input type='button' value='Delete' class='btt2'></a></td>
+                                <td><a href='admin_patient_edit.php?id=$row[id]'><input type='button' value='Edit' class='btt1'></a></td>
+                                <td><a href='admin_patient_delete.php?id=$row[id]'><input type='button' value='Delete' class='btt2'></a></td>
                             </tr>
                         ";
                         $sno++;

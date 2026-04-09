@@ -7,7 +7,7 @@
             <div class="navdiv">
                 <div class="logo"><a href="#"><i class="fa-solid fa-hand-holding-droplet" style="font-size:25px;"></i> LIFE SAVER</a></div>
                 <ul>  
-                    <li><a href="frontpage.php">Home</a></li>
+                    <li><a href="../frontpage.php">Home</a></li>
                     <li><a href="adminlogin.php">Admin</a></li>
                     <li><a href="../Donor/Donarlogin.php">Donar</a></li>
                     <li><a href="../Patient/patientlog.php">Patient</a></li>

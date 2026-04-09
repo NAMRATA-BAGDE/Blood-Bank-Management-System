@@ -70,7 +70,7 @@
         }
         footer{
             position:sticky;
-            background-color:black;
+            background-color:crimson;
             color: white;
             height:58px ; 
             margin-top: 90px;   

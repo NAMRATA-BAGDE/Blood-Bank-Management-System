@@ -1,7 +1,7 @@
 <html>
     <body>
     <nav class="head">
-            <li class="li1">Blood Bank Management System</li>
+            <li class="li1">LIFE SAVER</li>
             <li class="li2"><span class="name">Name: </span>
                 <?php
                     session_start();
@@ -24,7 +24,7 @@
             </li>
         </nav>
         <div class="main"><br>
-            <center><span><u>Blood Request</u></span></center>
+            <center><h3><b>BLOOD REQUEST</h3></b></center>
             <div class="content"><br><br>
                 <span>S.No</span>
                 <span class="head1">Patient ID</span>
@@ -55,9 +55,7 @@
                 </table>
             </div>
         </div>
-        <div class="footer"><br>
-<!--for copyright symbol © hold Alt and type 0169 --><p>© 2024 AakashBBMS</p>
-        </div>
+     
         <style>
             body{
                 margin: 0;
@@ -65,7 +63,7 @@
             .head{
                 width: 100%;
                 height: 50px;
-                background-color: red;
+                background-color:crimson;
                 color: white;
                 font-size: 25px;
                 font-family: Arial, Helvetica, sans-serif;
@@ -75,8 +73,8 @@
                 text-decoration: none;
                 color: white;
                 font-size: 20px;
-                font-family: Arial, Helvetica, sans-serif;
-                font-weight: 100;
+                font-family:  sans-serif;
+                
             }
             .head a:hover{
                 letter-spacing: 1px;
@@ -90,22 +88,22 @@
             .li2{
                 display: inline-block;
                 padding: 11px;
-                margin-left: 80px;
+                margin-left:300px;
             }
             .name{
                 font-size: 20px;
-                font-family: Georgia, 'Times New Roman', Times, serif;
+                font-family:sans-serif;
                 font-weight: bold;
             }
             .user{
                 font-size: 16px;
-                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-family:  sans-serif;
                 font-weight: 100;
             }
             .li3{
                 display: inline-block;
                 padding: 11px;
-                margin-left: 270px;
+                margin-left:250px;
             }
             .a1{
                 margin-left: 50px;
@@ -128,12 +126,12 @@
                 margin-left: 480px;
             }
             .content span{
-                font-size: 20px;
-                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-                font-weight: 700;
+                font-size:18px;
+                font-family:  sans-serif;
+                
             }
             .head1{
-                margin-left: 40px;
+                margin-left:40px;
             }
             .head2{
                 margin-left: 40px;   
@@ -147,22 +145,22 @@
             .txt1{
                 margin-left: 5px;
                 font-size: 20px;
-                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-family:  sans-serif;
             }
             .txt2{
                 margin-left: 90px;
                 font-size: 20px;
-                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-family:  sans-serif;
             }
             .txt3{
                 margin-left: 100px;
                 font-size: 20px;
-                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-family:  sans-serif;
             }
             .txt4{
                 margin-left: 110px;
                 font-size: 20px;
-                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-family:  sans-serif;
             }
             .link1{
                 margin-left: 40px;
@@ -184,18 +182,8 @@
                 border-width: 1px;
                 border-color: darkblue;
             }   
-            .footer{
-                width: 100%;
-                height: 50px;
-                background-color: brown;
-                text-align: center;
-            }
-            .footer p{
-                margin-top: 5px;
-                color: whitesmoke;
-                font-size: 15px;
-                font-family: Arial, Helvetica, sans-serif;
-            }
+           
+            
         </style>
     </body>
 </html>

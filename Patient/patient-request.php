@@ -38,6 +38,7 @@
             margin-right :25px;
         }
         .main{
+                 margin-left:350px;
                 width: 100%;
                 height: 583px;
             }
@@ -81,7 +82,7 @@
                 border-radius: 4px;
                 border-style: solid;
                 border-width: 1px;
-                border-color: gainsboro;
+                
             }
             .txtarea{
                 margin-left: 10px;
@@ -95,12 +96,12 @@
                 width: 80px;
                 height: 30px;
                 font-size: 20px;
-                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-family:  sans-serif;
                 color: white;
-                background-color: brown;
+                background-color:crimson;
                 border-radius: 5px;
                 border: none;
-                margin-left: 10px;
+                margin-left: 150px;
             }
             .item2{
                 background-color: black;
@@ -138,14 +139,14 @@
                     <li><a href="patiendDashboard.php">Dashboard</a></li>
                     <li><a href="patient-request.php">Request</a></li>
                     <li><a href="p-request-history.php">Request History</a></li>
-                    <li><a href="frontpage.php">Logout</a></li>
+                    <li><a href="../frontpage.php">Logout</a></li>
                 </ul>
             </div>
         </nav>
     <div class="main">
             <form action="p-req-save.php">
                 <div class="item1">
-                    <center><p>Blood Donation Form</p></center>
+                    <center><h2>Blood Donation Form</h2></center>
                     <span>No. of Units : </span><br>
                     <input type="text" name="t1" class="txt" placeholder="No. of Units (in ml)"><br><br>
                     <span>Blood Group : </span><br>
